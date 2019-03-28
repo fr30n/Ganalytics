@@ -39,10 +39,10 @@ composer require fr30n/ganalytics
 Optionally, you can publish the config file of this package with this command:
 
 ``` bash
-php artisan vendor:publish --provider="Fr30n\GAnalytics\AnalyticsServiceProvider"
+php artisan vendor:publish --provider="Fr30n\GAnalytics\GAnalyticsServiceProvider"
 ```
 
-The following config file will be published in `config/Ganalytics.php`
+The following config file will be published in `config/ganalytics.php`
 
 ```php
 return [
@@ -57,7 +57,7 @@ return [
      * to learn how to get this file. You can also pass the credentials as an array 
      * instead of a file path.
      */
-    'service_account_credentials_json' => storage_path('app/analytics/service-account-credentials.json'),
+    'service_account_credentials_json' => storage_path('app/ganalytics/service-account-credentials.json'),
 
     /*
      * The amount of minutes the Google API responses will be cached.
