@@ -26,8 +26,6 @@ Most methods will return an `\Illuminate\Support\Collection` object containing t
 
 Fr3on is a software agency in Cairo, Egypt. You'll find an overview of all our open source projects [on our website](https://fr30n.com).
 
-> **If you're using v1 of this package, please refer to [an older version of this readme](https://github.com/fr30n/ganalytics/blob/88eb75beadcd8dade2f3ee2423f3716253b2104d/README.md) for the installation and usage guide.**
-
 ## Installation
 
 This package can be installed through Composer.
